@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.env
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+
+# Models
+artifacts/*.pkl
+
+# Python cache
+*.log
+# Dataset
+data/raw/
+data/processed/
+
+# Large artifacts
+*.csv
+!outputs/*.csv
